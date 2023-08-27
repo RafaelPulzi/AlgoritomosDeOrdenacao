@@ -7,54 +7,45 @@ class BubbleSortInteractive
     {
         List<int> numbers = new List<int>();
 
-        int contador = 0;
-
         while (true)
         {
             Console.Clear(); // Limpa o terminal
 
             Console.WriteLine("Digite os números que deseja adicionar. Para finalizar, digite 'encerrar'.\n");
 
-            if (contador >= 1) {
-                Console.Write("\nArray atual: ");
-                PrintArray(numbers.ToArray());
-            }
+            Console.Write("\nArray atual: ");
+            PrintArray(numbers.ToArray());
+
 
             Console.Write("\nAdicione mais um número: ");
             string input = Console.ReadLine();
 
-            if (input.ToLower() == "encerrar")
+            if (input.ToLower() == "encerrar") // Linha para encerrar o programa 
                 break;
 
-            if (int.TryParse(input, out int number))
+            if (int.TryParse(input, out int number)) // vai colocando os números digitados dentro do array
             {
                 numbers.Add(number);
                 int[] arr = numbers.ToArray();
-
-                if (contador == 0) {
-                Console.Write("\nArray atual: \n");
-                PrintArray(arr);
-            }
                 
             }
-            else
+            else //Qualquer coisa que não for uma das especificações acima será identificado como um erro na digitação 
             {
                 Console.WriteLine("Entrada inválida. Digite um número válido ou 'encerrar' para finalizar.");
             }
 
-            contador++;
         }
 
         int[] sortedArray = numbers.ToArray();
         BubbleSortAlgorithm(sortedArray);
 
-        Console.Write("\nArray final ordenado: \n");
+        Console.Write("\nArray final ordenado: "); //Aqui já finalizando o programa ele dá print nos resultados que foram formulados pelo "BubbleSortAlgorithm()"
         PrintArray(sortedArray);
     }
 
-    static void BubbleSortAlgorithm(int[] arr)
+    static void BubbleSortAlgorithm(int[] arr) 
     {
-        int n = arr.Length;
+        int n = arr.Length; //Ordenação dos dados escritos, algoritmo usado: Booble sort
         for (int i = 0; i < n - 1; i++)
         {
             for (int j = 0; j < n - i - 1; j++)
@@ -70,7 +61,7 @@ class BubbleSortInteractive
         }
     }
 
-    static void PrintArray(int[] arr)
+    static void PrintArray(int[] arr) // imprimi os elementos desse array na mesma linha
     {
         foreach (int num in arr)
         {
