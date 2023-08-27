@@ -1,0 +1,14 @@
+C:\Users\Pulzi\Desktop\AlgoritomosDeOrdenaçãoApresentação\BubbleSort\bin\Debug\net7.0\AlgoritomosDeOrdenaçãoApresentação.exe
+C:\Users\Pulzi\Desktop\AlgoritomosDeOrdenaçãoApresentação\BubbleSort\bin\Debug\net7.0\AlgoritomosDeOrdenaçãoApresentação.deps.json
+C:\Users\Pulzi\Desktop\AlgoritomosDeOrdenaçãoApresentação\BubbleSort\bin\Debug\net7.0\AlgoritomosDeOrdenaçãoApresentação.runtimeconfig.json
+C:\Users\Pulzi\Desktop\AlgoritomosDeOrdenaçãoApresentação\BubbleSort\bin\Debug\net7.0\AlgoritomosDeOrdenaçãoApresentação.dll
+C:\Users\Pulzi\Desktop\AlgoritomosDeOrdenaçãoApresentação\BubbleSort\bin\Debug\net7.0\AlgoritomosDeOrdenaçãoApresentação.pdb
+C:\Users\Pulzi\Desktop\AlgoritomosDeOrdenaçãoApresentação\BubbleSort\obj\Debug\net7.0\AlgoritomosDeOrdenaçãoApresentação.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Pulzi\Desktop\AlgoritomosDeOrdenaçãoApresentação\BubbleSort\obj\Debug\net7.0\AlgoritomosDeOrdenaçãoApresentação.AssemblyInfoInputs.cache
+C:\Users\Pulzi\Desktop\AlgoritomosDeOrdenaçãoApresentação\BubbleSort\obj\Debug\net7.0\AlgoritomosDeOrdenaçãoApresentação.AssemblyInfo.cs
+C:\Users\Pulzi\Desktop\AlgoritomosDeOrdenaçãoApresentação\BubbleSort\obj\Debug\net7.0\AlgoritomosDeOrdenaçãoApresentação.csproj.CoreCompileInputs.cache
+C:\Users\Pulzi\Desktop\AlgoritomosDeOrdenaçãoApresentação\BubbleSort\obj\Debug\net7.0\AlgoritomosDeOrdenaçãoApresentação.dll
+C:\Users\Pulzi\Desktop\AlgoritomosDeOrdenaçãoApresentação\BubbleSort\obj\Debug\net7.0\refint\AlgoritomosDeOrdenaçãoApresentação.dll
+C:\Users\Pulzi\Desktop\AlgoritomosDeOrdenaçãoApresentação\BubbleSort\obj\Debug\net7.0\AlgoritomosDeOrdenaçãoApresentação.pdb
+C:\Users\Pulzi\Desktop\AlgoritomosDeOrdenaçãoApresentação\BubbleSort\obj\Debug\net7.0\AlgoritomosDeOrdenaçãoApresentação.genruntimeconfig.cache
+C:\Users\Pulzi\Desktop\AlgoritomosDeOrdenaçãoApresentação\BubbleSort\obj\Debug\net7.0\ref\AlgoritomosDeOrdenaçãoApresentação.dll
