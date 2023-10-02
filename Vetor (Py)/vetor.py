@@ -1,18 +1,59 @@
-# Criando um vetor (lista) de números inteiros
-vetor_inteiros = [1, 2, 3, 4, 5]
+import os
 
-# Criando um vetor (lista) de números de ponto flutuante
-vetor_floats = [0.5, 1.5, 2.5, 3.5]
 
-# Criando um vetor (lista) de strings
-vetor_strings = ["maçã", "banana", "laranja"]
+class Vetor:
+    def __init__(self):
+        self.vetor = []
 
-# Acessando elementos do vetor
-primeiro_elemento = vetor_inteiros[0]
-segundo_elemento = vetor_floats[1]
-terceiro_elemento = vetor_strings[2]
+    def adicionar_elemento(self, elemento):
+        self.vetor.append(elemento)
 
-# Imprimindo os elementos
-print(primeiro_elemento)
-print(segundo_elemento)
-print(terceiro_elemento)
+    def remover_elemento(self, elemento):
+        if elemento in self.vetor:
+            self.vetor.remove(elemento)
+        else:
+            print("Elemento não encontrado no vetor.")
+
+    def imprimir_vetor(self):
+        print("\nVetor atual:", self.vetor)
+
+
+def main():
+    os.system('cls' if os.name == 'nt' else 'clear')  # Limpa o terminal
+
+    vetor = Vetor()
+
+    print("Bem-vindo ao exemplo de vetores em Python!")
+
+    while True:
+
+        print("\nO que você gostaria de fazer?\n")
+        print("1. Adicionar um elemento")
+        print("2. Remover um elemento")
+        print("3. Imprimir o vetor")
+        print("4. Sair")
+        opcao = input("\nDigite a opção desejada: ")
+
+        if opcao == "1":
+            elemento = input("Digite o elemento que deseja adicionar: ")
+            vetor.adicionar_elemento(elemento)
+            print("Vetor atualizado:", vetor.vetor)
+
+        elif opcao == "2":
+            elemento = input("Digite o elemento que deseja remover: ")
+            vetor.remover_elemento(elemento)
+            print("Vetor atualizado:", vetor.vetor)
+
+        elif opcao == "3":
+            vetor.imprimir_vetor()
+
+        elif opcao == "4":
+            print("Saindo do programa. Até logo!")
+            break
+
+        else:
+            print("Opção inválida. Por favor, escolha uma opção válida.")
+
+
+if __name__ == "__main__":
+    main()

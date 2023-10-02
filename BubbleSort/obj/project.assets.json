@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Pulzi\\Desktop\\AlgoritomosDeOrdenaçãoApresentação\\BubbleSort\\AlgoritomosDeOrdenaçãoApresentação.csproj",
+      "projectUniqueName": "c:\\Users\\Pulzi\\Desktop\\Projetos\\AlgoritomosDeOrdenaçãoApresentação\\BubbleSort\\AlgoritomosDeOrdenaçãoApresentação.csproj",
       "projectName": "AlgoritomosDeOrdenaçãoApresentação",
-      "projectPath": "C:\\Users\\Pulzi\\Desktop\\AlgoritomosDeOrdenaçãoApresentação\\BubbleSort\\AlgoritomosDeOrdenaçãoApresentação.csproj",
+      "projectPath": "c:\\Users\\Pulzi\\Desktop\\Projetos\\AlgoritomosDeOrdenaçãoApresentação\\BubbleSort\\AlgoritomosDeOrdenaçãoApresentação.csproj",
       "packagesPath": "C:\\Users\\Pulzi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Pulzi\\Desktop\\AlgoritomosDeOrdenaçãoApresentação\\BubbleSort\\obj\\",
+      "outputPath": "c:\\Users\\Pulzi\\Desktop\\Projetos\\AlgoritomosDeOrdenaçãoApresentação\\BubbleSort\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Pulzi\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -59,7 +59,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }
